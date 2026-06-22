@@ -1,8 +1,7 @@
 # BATTERY-MONITORING-SYSTEM
 code on how sensors measure the parameters like voltage, current, and temperature
-# ESP32 IoT Energy Monitoring System
 
-This project uses an ESP32 microcontroller, a DHT11 sensor, and an ACS712 current sensor to monitor voltage, current, and temperature. The data is sent to ThingSpeak for visualization, and a buzzer alert is triggered when thresholds are exceeded.
+This project uses an ESP32 microcontroller, a DHT11 sensor, and an ACS712 current sensor to monitor voltage, current, and temperature. The data is sent to ThingSpeak for visualization, and a buzzer alerts when thresholds are exceeded.
 
 ---
 
@@ -16,7 +15,7 @@ Features
 
 ---
 
-## 🛠 Hardware Requirements
+ Hardware Requirements
 - ESP32 Development Board
 - DHT11 Temperature Sensor
 - ACS712 Current Sensor (30A version)
